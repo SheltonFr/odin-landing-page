@@ -1,0 +1,103 @@
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 20px ;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex: initial;
+    width: 100%;
+    align-items: center;
+}
+
+
+/* Secao de Cards */
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1020px;
+}
+
+.section-one .cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+}
+
+.card .image {
+    border: 4px solid #3882F6;
+    width: 100%;
+    height: 140px;
+    border-radius: 15px;
+}
+
+/* Secao com a frase do Thor */
+
+.section-two {
+    background-color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.section-two .text-container {
+    width: 1020px;
+    padding: 100px 40px;
+    text-align: left;
+    
+}
+
+.text-container .text{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.text-container #text-author {
+    text-align: right;
+    font-size: 20px;
+    color: #1F2934; 
+
+}
+
+/* secco de pedido de sign up */
+
+.section-three {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    color: #FFF;
+    width: 1020px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+    margin: 40px 0;
+    text-align: left;
+}
+.text-content {
+    font-size: 14px;
+}
+
+.btn {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 10px;
+    border: 2px solid #FFF;
+    border-radius: 8px;
+}
