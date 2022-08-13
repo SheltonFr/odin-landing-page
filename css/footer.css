@@ -10,3 +10,11 @@ footer {
 .content {
     text-align: center;
 }
+
+.content a{
+    transition: .3s;
+}
+
+.content a:hover {
+    opacity: .5;
+}
