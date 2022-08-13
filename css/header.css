@@ -7,7 +7,7 @@
 
 .header .header-container {
     width: 1020px;
-    height: 550px;
+    height: 540px;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .header-logo {
@@ -61,6 +61,11 @@ a {
     font-weight: bolder;
 }
 
+.header-photo img {
+    width: 100%;
+    background-position: center;
+    opacity: .7;
+}
 .header-text button {
    background-color:#3882F6;
    color: #FFF;
@@ -78,6 +83,3 @@ a {
     color: #E5E7EB;
 }
 
-.header-content .header-photo {
-    background-color: gray;
-}
